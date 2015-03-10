@@ -121,7 +121,7 @@ var Form = function(data){
   };
 
   self.getOptions = function(){
-    var query = '?fs=1&amp;wmode=transparent&amp;rel=0';
+    var query = '?fs=1&amp;wmode=transparent&amp;rel=0&amp;html5=1';
     if(self.get('autohide')){
       query += '&amp;autohide=1';
     }
